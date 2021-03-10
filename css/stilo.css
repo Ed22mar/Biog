@@ -1,0 +1,80 @@
+
+	* {
+	    box-sizing: border-box;
+	}
+body {
+    background-color: rgb(6, 97, 97);
+
+}
+/* trabalhando com flexbox para tornar o site responsivo e adptavel */
+   body { 
+		display: flex;
+		justify-content:space-between;
+	  	 align-items:center;
+       
+ }
+.form {
+width: 400px;
+/* morgin auto serve para centralizar a pagina  */
+margin: auto;
+scroll-padding-top: 40px;
+}
+p {
+color: rgb(27, 27, 27);
+font-family: sans-serif;
+font-style: unset;
+}
+.card{
+box-shadow: 1px 1px 5px rgb(16, 162, 167);
+background-color: rgb(15, 151, 192);
+	transition: 2.5s;
+padding:40px;
+border-radius: 5px;
+}
+.card-grup {
+/* alterar o espaçamento entre usuario e senha  */
+margin-bottom: 10px;
+}
+.card-grup > button {
+/* adicioanr alteraçoes no botao entrar */
+background-color:#393939 ;
+border-radius: 30px;
+width: 100%;
+padding: 5%;
+ border: 0px;
+outline: 0px;
+	transition: 2s;
+
+}
+.card-top {
+/* text align: center  serve para centralizar tdo o testo dentro da class */
+text-align: center;
+}
+.card-grup > label {
+/* modificar cor do label */
+width: 100%;
+color: rgb(27, 27, 27);
+display:block;
+}
+
+.card-grup > input {
+/* por bordas e retirar a cor que aparece ao por o mouse no input */
+      border-radius:5px;
+       outline:0;
+        width: 100%;
+        height: 25px;
+        padding: 5px;
+        
+}
+.logo {
+border-radius: 30px;
+width: 150px;
+box-shadow: 0PX 0PX 2PX beige;
+}
+.titulo {
+color: red;
+font-family: sans-serif;
+
+}
+
+
