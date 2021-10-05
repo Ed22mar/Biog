@@ -1,10 +1,133 @@
-body{background: rgb(0, 0, 0); color: cornsilk; text-align: justify;padding-left:30px;padding-right: 30px;}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #111; color: #fff; text-align: justify;
+    /*padding-left:200px;padding-right: 250px;*/
+}
 /*Cabeçario*/
-img{border-radius:150px;width: 250px; height: 250px;}
+img{border-radius:150px;width: 200px; height: 200px;margin: 10px 100px 0 ;}
+.cabecalho{
+  margin: 10px 100px 0 ;
+}
+.cabecalho h2{
+  padding: 0 0 10px 0;
+}
+.cabecalho p{
+  padding: 0 0 10px 0;
+}
+header ul{
+  display: flex;
+  justify-content:center;
+  argin: 0 500px;
+  margin-bottom: 50px;
+  background: aqua;
+  border-radius: 100px;
+}
+header ul li{
+  list-style: none;
+  padding: 5px;
+  margin:  5px;
+  text-align: center;
+}
+header ul:hover{
+  background: blue;
+  transition-duration: 2s;
+  transition-timing-function:ease;
+}
+main{
+  border-radius: 5px;
+  background: red;
+  text-align: center;
+  margin:50px;
+}
+main .role p{
+  margin:25px;
+}
+main .role p:hover{
+  box-shadow: 1px 5px 4px 2.5px #353535;
+  background: aqua;
+  transition-duration:2s;
+  transition-timing-function: linear;
+}
 
-h4 {padding-left: 40px;}
 
+/*Nav*/
+/*
+nav{
+    text-transform:none;
+    text-align:unset;
+    padding: 10px;
+}
+.contexto-inicial h2{
+padding-top: 20px;
 
-/*Rodapé*/
-.rodape a {padding: 10px; color: aquamarine;}
+}*/
 
+/*FOOTER*/
+footer{
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: Open Sans;
+    padding-top: 40px;
+    color:#fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li {
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size:1.1rem;
+    transform:color .4s ease;
+}
+.socials a:hover i{
+    color: aqua;
+}
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding:20px 0;
+    text-align: center;
+}
+.footer-content p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-content span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
